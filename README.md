@@ -1,13 +1,6 @@
-# CreativityOverFlowProject5
-JavaScript Game of Set
------------------------------------
+#Game of Set
 
-## General Info:
-Note to the grader: For reasons unknown to us, the AddEventListener() function would not work no matter what we did so that's why all of our events are done inline in the HTML document.
-
-When the code was copied+pasted into a CodePen project (online HTML/CSS/JS), the EventListeners worked as intended but would not work on Ubuntu.
-
-## How to Run our Program:
+## How to Run the Program:
 Have Middleman and it's corresponding gems installed:
 
 1. Make sure you have installed bundler, if not, please install it:
@@ -22,9 +15,7 @@ bundle install
 ```
 gem install middleman
 ```
-
-make sure that you are in the /project5/ folder
-run the following commands:
+4. Run the following command:
 ```
 bundle exec middleman server
 ```
@@ -44,13 +35,3 @@ follow the link that it gives:
 
 * Follow the directions that the game provides via window alerts (Window Alerts must be enabled for the game to function properly
 
-
-### Who Did What?
-
-##### Ron: Most of the CSS, Event Handlers + Event functions, Core game functionality, updated UI
-  
-#### Jincheng: initial UI, initial CSS, initial project skeleton
-
-#### Alex: Created Card and Deck Objects and corresponding methods
-
-#### Kathryn: Player + Computer functionality, Rules
