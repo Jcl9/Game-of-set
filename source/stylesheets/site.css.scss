@@ -1,0 +1,89 @@
+body {
+  background-color: #fbc547;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 18vh 1rem;
+  text-align: center;
+}
+
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
+#Set_Game {
+  align-self: center;
+  background-color: #555;
+  border-radius: 8px;
+  display: grid;
+  grid-column-gap: 1px;
+  grid-row-gap: 1px;
+  grid-template-areas:  "c1 c2 c3 b1 tc"
+                        "c4 c5 c6 b2 tp"
+                        "c7 c8 c9 b3 start"
+                        "c10 c11 c12 b4 new"
+                        "c13 c14 c15 b5 verify"
+                        "c16 c17 c18 b6 hint"
+                        "c19 c20 c21 b7 b8";
+  grid-template-columns: min-content min-content min-content min-content;
+  grid-template-rows: auto;
+  justify-self: center;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 1px;
+}
+
+.button {
+  align-items:center;
+  background-color: lightgrey;
+  color:#000;
+  cursor:pointer;
+  display:grid;
+  font-size:1.5em;
+  height:100px;
+  justify-items:center;
+  width:170px;
+}
+
+#c1 {grid-area: c1;}
+#c2 {grid-area: c2;}
+#c3 {grid-area: c3;}
+#c4 {grid-area: c4;}
+#c5 {grid-area: c5;}
+#c6 {grid-area: c6;}
+#c7 {grid-area: c7;}
+#c8 {grid-area: c8;}
+#c9 {grid-area: c9;}
+#c10 {grid-area: c10;}
+#c11 {grid-area: c11;}
+#c12 {grid-area: c12;}
+#c13 {grid-area: c13;}
+#c14 {grid-area: c14;}
+#c15 {grid-area: c15;}
+#c16 {grid-area: c16;}
+#c17 {grid-area: c17;}
+#c18 {grid-area: c18;}
+#c19 {grid-area: c19;}
+#c20 {grid-area: c20;}
+#c21 {grid-area: c21;}
+#blank1 {grid-area: b1;}
+#blank2 {grid-area: b2;}
+#blank3 {grid-area: b3;}
+#blank4 {grid-area: b4;}
+#blank5 {grid-area: b5;}
+#blank6 {grid-area: b6;}
+#blank7 {grid-area: b7;}
+#blank8 {grid-area: b8;}
+#tc {grid-area: tc;}
+#tp {grid-area: tp;}
+#new {grid-area: new;}
+#start {grid-area: start;}
+#verify {grid-area: verify;}
+#hint {grid-area: hint;}
