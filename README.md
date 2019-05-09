@@ -1,4 +1,4 @@
-#Game of Set
+# Game of Set
 
 ## How to Run the Program:
 Have Middleman and it's corresponding gems installed:
