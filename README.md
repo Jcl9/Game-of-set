@@ -1,4 +1,5 @@
 # Game of Set
+[![HitCount](http://hits.dwyl.com/Jcl9/Game-of-set.svg)](http://hits.dwyl.com/Jcl9/Game-of-set)
 
 ## How to Run the Program:
 Have Middleman and it's corresponding gems installed:
